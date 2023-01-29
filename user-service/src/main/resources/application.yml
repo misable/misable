@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: userservice
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: public
+        username: nacos
+        password: nacos
+server:
+  port: 8081
+userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule       #负载均衡规则
