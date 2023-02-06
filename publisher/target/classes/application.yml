@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: publishservice
+#  cloud:
+#    nacos:
+#      server-addr: localhost:8848
+#      discovery:
+#        namespace: public
+#        username: nacos
+#        password: nacos
+  rabbitmq:
+    host: 192.168.137.129  #主机名
+    port: 5672  #端口
+    virtual-host: / #虚拟主机
+    username: misable #用户名
+    password: 123456 #密码
+server:
+  port: 8082
+#userservice:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule       #负载均衡规则
