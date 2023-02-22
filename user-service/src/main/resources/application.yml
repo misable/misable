@@ -2,6 +2,9 @@ spring:
   application:
     name: userservice
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
     nacos:
       server-addr: localhost:8848
       discovery:

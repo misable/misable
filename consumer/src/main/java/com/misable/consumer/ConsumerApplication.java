@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author : wyc
  * @data : 2023/2/3 15:25
- * @description TODO
+ * @description TODOw
  */
 @SpringBootApplication
 public class ConsumerApplication {
