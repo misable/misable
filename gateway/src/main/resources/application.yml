@@ -16,5 +16,7 @@ spring:
           uri: lb://orderservice
           predicates:
             - Path=/menu/**
+      default-filters:
+        - AddRequestHeader=origin,gateway
 
 

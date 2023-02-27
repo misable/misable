@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class TestController {
     @RequestMapping(value = "/qryDkp", method = RequestMethod.GET)
-    public void qryDkp(int num) {
+    public String qryDkp(int num) {
         System.out.println("我接受到了"+num);
+        return "Misable";
     }
 }
